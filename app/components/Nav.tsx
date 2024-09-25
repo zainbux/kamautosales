@@ -28,39 +28,7 @@ export default function Nav() {
             Referral Program
           </Link>
         </nav>
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="md:hidden">
-              <MenuIcon className="w-6 h-6" />
-              <span className="sr-only">Toggle navigation menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right" className="w-full max-w-xs bg-black text-white">
-            <div className="flex items-center justify-between h-16 px-4">
-              <Link href="#" className="flex items-center gap-2" prefetch={false}>
-              <Image src={'/AMAZON_ENGINEERS.jpg'} alt='logo' width={94} height={94} />
-              </Link>
-              {/* <SheetClose asChild>
-                <Button variant="ghost" size="icon">
-                  <XIcon className="w-6 h-6" />
-                  <span className="sr-only">Close menu</span>
-                </Button>
-              </SheetClose> */}
-            </div>
-            <nav className="grid gap-4 py-6 px-4">
 
-              <Link href="/workwithus" className="flex items-center gap-2 text-sm font-medium" prefetch={false}>
-              Start Now
-              </Link>
-              <Link href="/whatweoffer" className="flex items-center gap-2 text-sm font-medium" prefetch={false}>
-                Our Services
-              </Link>
-              <Link href="/referralprogram" className="flex items-center gap-2 text-sm font-medium" prefetch={false}>
-                Referral Program
-              </Link>
-            </nav>
-          </SheetContent>
-        </Sheet>
       </div>
     </header>
   );

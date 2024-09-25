@@ -5,8 +5,8 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <div className="h-full md:pt-44">
-      <div className="container mx-auto px-4 py-16 sm:py-24 lg:py-32 max-w-24xl">
+    <div className="h-full pt-20 md:pt-44">
+      <div className="container mx-auto px-4 py-16 sm:py-36 lg:py-32 max-w-24xl">
         <div className="flex justify-center">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 items-center max-w-24xl">
             <motion.div 
