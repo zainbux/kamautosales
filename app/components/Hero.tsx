@@ -47,7 +47,8 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
                 <a
-                  href="#footer"
+                  href="mailto:kamautosales99@gmail.com"
+
                   className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-semibold text-lg hover:bg-blue-700 transition-colors duration-300"
                 >
                   Contact Us
