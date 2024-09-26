@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Contact Us</h3>
-            <p className="text-sm">7-4603 Bank Street<br />Ottawa, ON K1T 3W6</p>
+            <p className="text-sm">8-4603 Bank Street<br />Ottawa, ON K1T 3W6</p>
             <p className="text-sm">Phone: (613) 404-7722</p>
             <p className="text-sm">Email: kamautosales99@gmail.com</p>
           </div>
